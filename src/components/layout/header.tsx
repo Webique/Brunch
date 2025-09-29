@@ -8,7 +8,7 @@ import { AnimatePresence } from "motion/react";
 import { Phone } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation.public";
+import { Link, usePathname } from "@/i18n/navigation.public";
 import Logo from "@/components/ui/logo";
 import { cn } from "@/lib/utils";
 import LocaleSwitcher from "@/components/locale-switcher";
@@ -18,6 +18,7 @@ export default function Header() {
   const t = useTranslations("Header");
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const navItems = [
     { label: t("nav.home"), href: "/" },
@@ -27,14 +28,18 @@ export default function Header() {
   ];
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
+    if (pathname === "/") {
+      const handleScroll = () => {
+        setIsScrolled(window.scrollY > 20);
+      };
 
-    window.addEventListener("scroll", handleScroll);
+      window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+      return () => window.removeEventListener("scroll", handleScroll);
+    } else {
+      setIsScrolled(true);
+    }
+  }, [pathname]);
 
   const headerVariants: Variants = {
     visible: {

@@ -20,6 +20,18 @@
         }
       ]
     },
+    "VisionMissionSection": {
+      "whyBrunchArea": "Why Brunch Area?",
+      "brunchAreaHighlight": "Brunch Area",
+      "description": "More than just breakfast — it's moments that combine taste, quality, and exceptional atmospheres to create an unforgettable experience.",
+      "vision": "Our Vision",
+      "visionText": "To become the first destination for breakfast lovers in the region, where refined taste meets a unique experience.",
+      "mission": "Our Mission",
+      "missionText": "We provide fresh and healthy breakfast meals with exceptional service and inspiring atmospheres that make your day more beautiful.",
+      "values": "Our Values",
+      "valuesText": "Honesty and transparency, respect for customers and ingredients, continuous innovation, excellence in every detail.",
+      "imageAlt": "Breakfast experience at Brunch Area"
+    },
     "WhatsAppFloat": {
       "tooltip": "Contact us on WhatsApp"
     }

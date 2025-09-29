@@ -16,19 +16,21 @@ export default function Error({ error, reset }: Props) {
   }, [error]);
 
   return (
-    <div>
-      {t.rich("description", {
-        p: (chunks) => <p className="mt-4">{chunks}</p>,
-        retry: (chunks) => (
-          <button
-            className="text-white underline underline-offset-2"
-            onClick={reset}
-            type="button"
-          >
-            {chunks}
-          </button>
-        )
-      })}
-    </div>
+    <main>
+      <div className="flex min-h-screen flex-col items-center justify-center">
+        {t.rich("description", {
+          p: (chunks) => <p className="mt-4">{chunks}</p>,
+          retry: (chunks) => (
+            <button
+              className="underline underline-offset-2"
+              onClick={reset}
+              type="button"
+            >
+              {chunks}
+            </button>
+          )
+        })}
+      </div>
+    </main>
   );
 }
