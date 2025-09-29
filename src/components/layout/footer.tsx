@@ -158,10 +158,10 @@ const Footer = () => {
               >
                 <Mail className="size-4 opacity-90" />
                 <a
-                  href="mailto:support@akhawen.com"
+                  href="mailto:support@bruncharea.com"
                   className="text-sm opacity-90 transition-opacity hover:opacity-100"
                 >
-                  support@akhawen.com
+                  support@bruncharea.com
                 </a>
               </m.div>
 
