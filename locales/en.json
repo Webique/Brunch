@@ -61,11 +61,31 @@
     "IdentitySection": {
       "title": "Our Identity",
       "imageAlt": "Brunch Area Identity",
-      "description": "We are committed to honesty, transparency, fresh ingredients, high quality, and customer satisfaction.",
+      "description": "The sun symbolizes the start of a new day, with 16 rays emanating from within, forming an oval shape that represents a nutritious and healthy breakfast for a good day. The creamy yellow color was chosen to reflect the sun's influence throughout the day.",
       "authenticity": "Honesty and Transparency",
       "freshness": "Respect for Customers and Ingredients",
       "quality": "Continuous Innovation",
       "customerFocus": "Customer Satisfaction"
+    },
+    "CtaSection": {
+      "title": "Visit Us Today",
+      "subtitle": "And Enjoy an Unforgettable Breakfast Experience",
+      "description": "We pride ourselves on offering the best breakfast meals in the area with a family-friendly atmosphere and fresh ingredients daily. Visit us and discover why we are the preferred destination for breakfast lovers.",
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location",
+      "locationText": "Prime Location",
+      "hours": "Working Hours",
+      "hoursText": "6 AM - 4 PM",
+      "getDirections": "Get Directions",
+      "viewMenu": "View Menu",
+      "followUs": "Follow Us on Social Media",
+      "socialMedia": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "x": "X Platform",
+        "tiktok": "TikTok"
+      }
     },
     "WhatsAppFloat": {
       "tooltip": "Contact us on WhatsApp"
