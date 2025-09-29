@@ -82,7 +82,7 @@ export default function ServicesSection() {
           <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-amber-100 to-amber-50 p-8 shadow-xl sm:p-12">
             <div className="grid items-center gap-8 lg:grid-cols-2">
               <div className="space-y-6">
-                <h3 className="text-3xl font-bold text-gray-900">
+                <h3 className="text-center text-3xl font-bold text-gray-900 lg:text-start">
                   {t("menuHighlight")}
                 </h3>
                 <p className="text-lg leading-relaxed text-gray-700">
