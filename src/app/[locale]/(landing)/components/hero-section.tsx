@@ -154,7 +154,7 @@ const HeroSection = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute bottom-6 right-6 flex w-fit gap-7">
+                  <div className="absolute bottom-10 right-6 flex w-fit gap-7">
                     <button
                       // disabled={!api || current === 0}
                       className="[&>svg]:fill-primary hover:[&>svg]:fill-primary/80 disabled:[&>svg]:fill-zinc-300"
