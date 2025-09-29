@@ -23,7 +23,7 @@ export default function Logo({
     <I18nLink
       href={href}
       aria-label="site-logo"
-      className={cn("flex items-center gap-2", className)}
+      className={cn("flex items-center gap-4", className)}
     >
       <ExportedImage
         className={cn(

@@ -73,7 +73,11 @@ const Footer = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <Logo className="mb-4" desClassName="text-current" />
+            <Logo
+              className="mb-4"
+              desClassName="text-current"
+              imgClassName="size-24"
+            />
             <p className="text-sm leading-relaxed opacity-90">
               {t("companyDescription")}
             </p>
