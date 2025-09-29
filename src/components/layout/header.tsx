@@ -12,6 +12,7 @@ import { Link } from "@/i18n/navigation.public";
 import Logo from "@/components/ui/logo";
 import { cn } from "@/lib/utils";
 import LocaleSwitcher from "@/components/locale-switcher";
+import { siteConfig } from "@/config/site";
 
 export default function Header() {
   const t = useTranslations("Header");
@@ -22,7 +23,6 @@ export default function Header() {
     { label: t("nav.home"), href: "/" },
     { label: t("nav.about"), href: "#about" },
     { label: t("nav.services"), href: "#services" },
-    { label: t("nav.clients"), href: "#clients" },
     { label: t("nav.contact"), href: "#contact" }
   ];
 
@@ -98,30 +98,17 @@ export default function Header() {
             : "text-primary-foreground bg-white md:bg-transparent"
         )}
       >
-        <div className="layout">
+        <div className="layout py-3">
           <div className="flex items-center justify-between duration-300">
             {/* Logo */}
-            <div
-              className={cn(
-                "relative skew-x-[-20deg] transform p-2 px-8",
-                !isScrolled && "bg-white/40 backdrop-blur-lg"
-              )}
+
+            <m.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
             >
-              <div
-                className={cn(
-                  "skew-x-[20deg] transform",
-                  isScrolled ? "py-2 sm:py-3" : "py-2 sm:py-3.5"
-                )}
-              >
-                <m.div
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.2, duration: 0.5 }}
-                >
-                  <Logo />
-                </m.div>
-              </div>
-            </div>
+              <Logo />
+            </m.div>
 
             {/* Desktop Navigation */}
             <nav className="hidden items-center gap-8 lg:flex">
@@ -161,7 +148,7 @@ export default function Header() {
                   asChild
                 >
                   <Link
-                    href="https://demo29.houzez.co/?_gl=1%2A1no16lb%2A_gcl_au%2AMTY5MjMwNDI2Ni4xNzQ4MzMwMTY4%2A_ga%2AMTEyNDk5NTU0OS4xNzQ4MzMwMTY4%2A_ga_RVPKT97G4N%2AczE3NTE5Njk4NzQkbzYkZzAkdDE3NTE5Njk4NzQkajYwJGwwJGgw"
+                    href={siteConfig.links.whatsapp}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -266,7 +253,7 @@ export default function Header() {
                       asChild
                     >
                       <Link
-                        href="https://demo29.houzez.co/?_gl=1%2A1no16lb%2A_gcl_au%2AMTY5MjMwNDI2Ni4xNzQ4MzMwMTY4%2A_ga%2AMTEyNDk5NTU0OS4xNzQ4MzMwMTY4%2A_ga_RVPKT97G4N%2AczE3NTE5Njk4NzQkbzYkZzAkdDE3NTE5Njk4NzQkajYwJGwwJGgw"
+                        href={siteConfig.links.whatsapp}
                         onClick={() => setIsMobileMenuOpen(false)}
                         target="_blank"
                         rel="noopener noreferrer"

@@ -15,42 +15,47 @@ import { Link } from "@/i18n/navigation.public";
 import { siteConfig } from "@/config/site";
 
 const Footer = () => {
-  const t = useTranslations("Header.nav");
-  const tFooter = useTranslations("Footer");
+  const t = useTranslations("Footer");
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
     { label: t("home"), href: "/" },
+    { label: t("vision"), href: "#vision" },
     { label: t("about"), href: "#about" },
     { label: t("services"), href: "#services" },
-    { label: t("sectors"), href: "#sectors" }
+    { label: t("identity"), href: "#identity" }
   ];
 
   const services = [
-    { label: t("stats"), href: "#stats" },
-    { label: t("clients"), href: "#clients" },
-    { label: t("contact"), href: "#contact" }
+    { label: t("breakfastMeals"), href: "#services" },
+    { label: t("beverages"), href: "#services" },
+    { label: t("sandwiches"), href: "#services" },
+    { label: t("frenchToast"), href: "#services" }
   ];
 
   const socialLinks = [
     {
-      name: tFooter("socialMedia.whatsapp"),
-      url: siteConfig.links.whatsapp,
+      name: t("socialMedia.whatsapp"),
+      url: "https://wa.me/966566402023",
       icon: WhatsApp
     },
     {
-      name: tFooter("socialMedia.instagram"),
-      url: siteConfig.links.instagram,
+      name: t("socialMedia.instagram"),
+      url: "https://instagram.com/bruncharea",
       icon: Instagram
     },
-    { name: tFooter("socialMedia.x"), url: siteConfig.links.x, icon: X },
     {
-      name: tFooter("socialMedia.facebook"),
-      url: siteConfig.links.facebook,
+      name: t("socialMedia.x"),
+      url: "https://x.com/bruncharea",
+      icon: X
+    },
+    {
+      name: t("socialMedia.facebook"),
+      url: "https://facebook.com/bruncharea",
       icon: Facebook
     },
     {
-      name: tFooter("socialMedia.tiktok"),
+      name: t("socialMedia.tiktok"),
       url: siteConfig.links.tiktok,
       icon: Tiktok
     }
@@ -68,9 +73,9 @@ const Footer = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <Logo className="mb-4" imgClassName="w-48 sm:w-48" />
+            <Logo className="mb-4" desClassName="text-current" />
             <p className="text-sm leading-relaxed opacity-90">
-              {tFooter("companyDescription")}
+              {t("companyDescription")}
             </p>
           </m.div>
 
@@ -82,7 +87,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <h3 className="text-lg font-bold">{tFooter("quickLinks")}</h3>
+            <h3 className="text-lg font-bold">{t("quickLinks")}</h3>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <m.li
@@ -109,7 +114,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <h3 className="text-lg font-bold">{tFooter("services")}</h3>
+            <h3 className="text-lg font-bold">{t("services")}</h3>
             <ul className="space-y-2">
               {services.map((service, index) => (
                 <m.li
@@ -136,7 +141,7 @@ const Footer = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <h3 className="text-lg font-bold">{tFooter("contactUs")}</h3>
+            <h3 className="text-lg font-bold">{t("contactUs")}</h3>
             <div className="space-y-3">
               <m.div
                 whileHover={{ scale: 1.02 }}
@@ -144,11 +149,11 @@ const Footer = () => {
               >
                 <Phone className="size-4 opacity-90" />
                 <a
-                  href="tel:+966920024848"
+                  href="tel:+966566402023"
                   className="text-sm opacity-90 transition-opacity hover:opacity-100"
                   dir="ltr"
                 >
-                  +966920024848
+                  +966 56 640 2023
                 </a>
               </m.div>
 
@@ -158,10 +163,10 @@ const Footer = () => {
               >
                 <Mail className="size-4 opacity-90" />
                 <a
-                  href="mailto:support@bruncharea.com"
+                  href="mailto:bruncharea@gmail.com"
                   className="text-sm opacity-90 transition-opacity hover:opacity-100"
                 >
-                  support@bruncharea.com
+                  bruncharea@gmail.com
                 </a>
               </m.div>
 
@@ -176,13 +181,11 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-sm opacity-90 transition-opacity hover:opacity-100"
                 >
-                  {tFooter("ourLocation")}
+                  {t("ourLocation")}
                 </a>
               </m.div>
 
-              <div className="text-xs opacity-75">
-                {tFooter("available24_7")}
-              </div>
+              <div className="text-xs opacity-75">{t("available24_7")}</div>
             </div>
           </m.div>
         </div>
@@ -215,11 +218,11 @@ const Footer = () => {
 
             <Button variant="outline" asChild>
               <Link
-                href={siteConfig.links.whatsapp}
+                href="https://wa.me/966566402023"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {tFooter("connectViaWhatsApp")}
+                {t("connectViaWhatsApp")}
               </Link>
             </Button>
           </div>
@@ -234,7 +237,7 @@ const Footer = () => {
           className="border-primary-foreground/20 mt-6 border-t pt-6 text-center"
         >
           <p className="text-sm opacity-75">
-            {tFooter("copyright", { year: currentYear })}
+            {t("copyright", { year: currentYear })}
           </p>
         </m.div>
       </div>
