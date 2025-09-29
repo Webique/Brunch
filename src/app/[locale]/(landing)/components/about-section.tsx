@@ -26,7 +26,7 @@ export default function AboutSection() {
           </h2>
           <p className="text-lg leading-relaxed text-gray-600">
             {t("description1Part1")}
-            <span className="text-primary font-semibold">
+            <span className="from-primary via-primary bg-gradient-to-r to-amber-600 bg-clip-text font-semibold text-transparent">
               {t("description1Part2")}
             </span>
             {t("description1Part3")}

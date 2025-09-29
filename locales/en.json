@@ -58,6 +58,15 @@
       "feature3": "Our team consists of trained members to maintain innovative means of success",
       "menuImageAlt": "Brunch Area breakfast menu"
     },
+    "IdentitySection": {
+      "title": "Our Identity",
+      "imageAlt": "Brunch Area Identity",
+      "description": "We are committed to honesty, transparency, fresh ingredients, high quality, and customer satisfaction.",
+      "authenticity": "Honesty and Transparency",
+      "freshness": "Respect for Customers and Ingredients",
+      "quality": "Continuous Innovation",
+      "customerFocus": "Customer Satisfaction"
+    },
     "WhatsAppFloat": {
       "tooltip": "Contact us on WhatsApp"
     }
