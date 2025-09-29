@@ -1,0 +1,74 @@
+{
+  "IndexPage": {
+    "HeroSection": {},
+    "WhatsAppFloat": {
+      "tooltip": "Contact us on WhatsApp"
+    }
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "retryButton": "Retry",
+    "contactSupport": "Contact Support",
+    "goBack": "Go Back",
+    "backToHome": "Back to Home"
+  },
+  "LocaleLayout": {
+    "name": "Brunch Area | Healthy & Delicious Breakfast All Day",
+    "short_name": "Brunch Area",
+    "description": "Enjoy Brunch Area’s fresh, healthy, and delicious breakfast served all day. We offer a wide variety of sandwiches, juices, coffee, and baked goods with unique flavors to satisfy every taste. Always an exceptional experience with excellent service.",
+    "keywords": [
+      "Brunch Area",
+      "healthy breakfast",
+      "morning meals",
+      "sandwiches",
+      "coffee",
+      "fresh juices",
+      "breakfast restaurant",
+      "brunch restaurant",
+      "fresh bakery",
+      "delicious breakfast",
+      "balanced meals",
+      "Riyadh restaurants",
+      "best breakfast places"
+    ]
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ar {🇸🇦 Arabic} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Header": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "sectors": "Sectors",
+      "stats": "Statistics",
+      "clients": "Clients",
+      "contact": "Contact Us"
+    },
+    "cta": "Start your investment now"
+  },
+  "Footer": {
+    "companyDescription": "We are a leading company in development and integrated services, striving to provide the best innovative solutions to our clients.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "contactUs": "Contact Us",
+    "available24_7": "Available 24/7",
+    "copyright": "© {year} Brunch Area Advanced Company. All rights reserved.",
+    "connectViaWhatsApp": "Connect via WhatsApp",
+    "socialMedia": {
+      "whatsapp": "WhatsApp",
+      "x": "X",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "tiktok": "TikTok"
+    },
+    "ourLocation": "Our Location on the Map"
+  }
+}
