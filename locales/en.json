@@ -31,6 +31,15 @@
       "valuesText": "Honesty and transparency, respect for customers and ingredients, continuous innovation, excellence in every detail.",
       "imageAlt": "Breakfast experience at Brunch Area"
     },
+    "AboutSection": {
+      "title": "Who We Are",
+      "description1Part1": "At ",
+      "description1Part2": "Brunch Area",
+      "description1Part3": ", we are committed to preparing balanced and nutritious breakfast meals that meet your daily needs, delivered with exceptional service and a high-quality experience.",
+      "description2": "We work with local farmers and suppliers to provide the best fresh ingredients daily, ensuring our customers have an exceptional experience with every visit.",
+      "description3": "Our commitment to transparency, respect, and continuous innovation is what sets us apart and makes us the best choice for a healthy and delicious breakfast all day.",
+      "imageAlt": "About Brunch Area"
+    },
     "WhatsAppFloat": {
       "tooltip": "Contact us on WhatsApp"
     }

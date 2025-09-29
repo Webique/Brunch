@@ -114,7 +114,7 @@ export default function Header() {
             >
               <Logo
                 smallInMobile
-                desClassName={isScrolled ? "text-gray-600" : "text-white"}
+                desClassName={isScrolled ? "text-gray-600" : "md:text-white"}
               />
             </m.div>
 
