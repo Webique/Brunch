@@ -65,7 +65,7 @@ const HeroSection = () => {
         className="h-full max-w-full overflow-hidden"
         plugins={[
           Autoplay({
-            delay: 3000
+            delay: 4000
             // stopOnInteraction: false
           })
         ]}
