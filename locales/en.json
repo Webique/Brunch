@@ -21,8 +21,7 @@
       ]
     },
     "VisionMissionSection": {
-      "whyBrunchArea": "Why Brunch Area?",
-      "brunchAreaHighlight": "Brunch Area",
+      "whyBrunchArea": "Why <span>Brunch Area</span>?",
       "description": "More than just breakfast — it's moments that combine taste, quality, and exceptional atmospheres to create an unforgettable experience.",
       "vision": "Our Vision",
       "visionText": "To become the first destination for breakfast lovers in the region, where refined taste meets a unique experience.",

@@ -22,11 +22,13 @@ export default function VisionMissionSection() {
           className="mx-auto max-w-2xl space-y-6"
         >
           <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-            {t("whyBrunchArea")}{" "}
-            <span className="from-primary via-primary bg-gradient-to-r to-amber-600 bg-clip-text text-transparent">
-              {t("brunchAreaHighlight")}
-            </span>
-            ؟
+            {t.rich("whyBrunchArea", {
+              span: (chunks: React.ReactNode) => (
+                <span className="from-primary via-primary bg-gradient-to-r to-amber-600 bg-clip-text text-transparent">
+                  {chunks}
+                </span>
+              )
+            })}{" "}
           </h2>
           <p className="text-lg leading-relaxed text-gray-600">
             {t("description")}
