@@ -9,7 +9,10 @@ export default function AboutSection() {
   const t = useTranslations("IndexPage.AboutSection");
 
   return (
-    <section id="about" className="relative bg-white py-24 sm:py-28">
+    <section
+      id="about"
+      className="max-w-screen relative overflow-hidden bg-white py-24 sm:py-28"
+    >
       <div className="layout grid items-center gap-16 lg:grid-cols-2">
         <m.div
           initial={{ opacity: 0, x: -40 }}

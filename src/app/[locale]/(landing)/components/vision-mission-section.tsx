@@ -11,7 +11,7 @@ export default function VisionMissionSection() {
   return (
     <section
       id="vision"
-      className="relative bg-gradient-to-br from-white to-amber-50 py-28"
+      className="max-w-screen relative overflow-hidden bg-gradient-to-br from-white to-amber-50 py-28"
     >
       <div className="layout text-center">
         <m.div
