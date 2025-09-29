@@ -153,11 +153,11 @@ const Footer = () => {
               >
                 <Phone className="size-4 opacity-90" />
                 <a
-                  href="tel:+966566402023"
+                  href={`tel:${siteConfig.support.phone}`}
                   className="text-sm opacity-90 transition-opacity hover:opacity-100"
                   dir="ltr"
                 >
-                  +966 56 640 2023
+                  {siteConfig.support.phone}
                 </a>
               </m.div>
 
@@ -167,10 +167,12 @@ const Footer = () => {
               >
                 <Mail className="size-4 opacity-90" />
                 <a
-                  href="mailto:bruncharea@gmail.com"
+                  href={`mailto:${siteConfig.support.email}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm opacity-90 transition-opacity hover:opacity-100"
                 >
-                  bruncharea@gmail.com
+                  {siteConfig.support.email}
                 </a>
               </m.div>
 
@@ -222,7 +224,7 @@ const Footer = () => {
 
             <Button variant="outline" asChild>
               <Link
-                href="https://wa.me/966566402023"
+                href={siteConfig.links.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
               >
