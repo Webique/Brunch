@@ -40,6 +40,24 @@
       "description3": "Our commitment to transparency, respect, and continuous innovation is what sets us apart and makes us the best choice for a healthy and delicious breakfast all day.",
       "imageAlt": "About Brunch Area"
     },
+    "ServicesSection": {
+      "title": "Our Services",
+      "subtitle": "We carefully prepare breakfast meals with nutritional value, balanced and meeting your needs throughout the day",
+      "breakfastMeals": "Breakfast Meals",
+      "breakfastMealsDesc": "We prepare various breakfast meals with high nutritional value, fresh, healthy and delicious throughout the day",
+      "beverages": "Beverages",
+      "beveragesDesc": "Orange juice, tea, coffee and various drinks that complement and are practical with your breakfast meal",
+      "sandwiches": "Sandwiches",
+      "sandwichesDesc": "Diverse cheese, meat, egg and falafel sandwiches that satisfy all tastes without description, just types",
+      "frenchToast": "French Toast",
+      "frenchToastDesc": "French toast panino preserves its basic components and innovation. English toast rich with pieces. Crispy French toast",
+      "menuHighlight": "Our Menu Experience",
+      "menuDescription": "The menu is presented with images of food only without description, making it easy for the customer to choose in a thoughtful and practical way",
+      "feature1": "We work with local farmers and suppliers providing them with incentives and rewards without distinction",
+      "feature2": "We are committed to providing excellent service and enriching their high-quality experience",
+      "feature3": "Our team consists of trained members to maintain innovative means of success",
+      "menuImageAlt": "Brunch Area breakfast menu"
+    },
     "WhatsAppFloat": {
       "tooltip": "Contact us on WhatsApp"
     }
