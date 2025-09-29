@@ -9,13 +9,15 @@ type indexProps = {
   className?: string;
   imgClassName?: string;
   desClassName?: string;
+  smallInMobile?: boolean;
 };
 
 export default function Logo({
   className,
   imgClassName,
   desClassName,
-  href = "/"
+  href = "/",
+  smallInMobile = false
 }: indexProps) {
   const t = useTranslations("Header");
 
@@ -23,7 +25,11 @@ export default function Logo({
     <I18nLink
       href={href}
       aria-label="site-logo"
-      className={cn("flex items-center gap-4", className)}
+      className={cn(
+        "flex items-center gap-4",
+        smallInMobile && "gap-2 sm:gap-4",
+        className
+      )}
     >
       <ExportedImage
         className={cn(
@@ -38,7 +44,12 @@ export default function Logo({
         alt="site-logo"
       />
       <div>
-        <span className="from-primary/90 via-primary bg-gradient-to-r to-amber-500 bg-clip-text text-xl font-black text-transparent">
+        <span
+          className={cn(
+            "from-primary/90 via-primary bg-gradient-to-r to-amber-500 bg-clip-text text-xl font-black text-transparent",
+            smallInMobile && "text-lg leading-5 sm:text-xl"
+          )}
+        >
           {t("siteName")}
         </span>
         <p className={cn("text-xs font-medium text-gray-600", desClassName)}>
