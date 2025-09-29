@@ -34,6 +34,7 @@ export default function Logo({
       <ExportedImage
         className={cn(
           "size-12 max-w-full overflow-hidden rounded-full sm:size-24",
+          smallInMobile && "size-12 sm:size-20",
           imgClassName
         )}
         src="/images/logo.png"
@@ -47,7 +48,7 @@ export default function Logo({
         <span
           className={cn(
             "from-primary/90 via-primary bg-gradient-to-r to-amber-500 bg-clip-text text-xl font-black text-transparent",
-            smallInMobile && "text-lg leading-5 sm:text-xl"
+            smallInMobile && "text-lg leading-5 sm:text-lg"
           )}
         >
           {t("siteName")}

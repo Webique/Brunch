@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Variants } from "motion";
 import { AnimatePresence } from "motion/react";
-import { ArrowRight } from "lucide-react";
+import { Phone } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation.public";
@@ -107,7 +107,10 @@ export default function Header() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              <Logo smallInMobile />
+              <Logo
+                smallInMobile
+                desClassName={isScrolled ? "text-gray-600" : "text-white"}
+              />
             </m.div>
 
             {/* Desktop Navigation */}
@@ -125,7 +128,7 @@ export default function Header() {
                       "relative px-1 text-sm font-medium tracking-wide transition-colors duration-300 hover:scale-105",
                       isScrolled
                         ? "hover:text-primary text-gray-700"
-                        : "text-primary-foreground hover:text-primary-foreground/80",
+                        : "text-white hover:text-white/80",
                       "before:absolute before:bottom-0 before:left-0 before:h-0.5 before:w-0 before:bg-current before:transition-all before:duration-300 hover:before:w-full"
                     )}
                   >
@@ -143,7 +146,7 @@ export default function Header() {
                 className="flex items-center"
               >
                 <Button
-                  className="group me-2 hidden md:inline-flex"
+                  className="group me-2 hidden rounded-full px-4 py-5 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl md:inline-flex"
                   size="lg"
                   asChild
                 >
@@ -153,7 +156,7 @@ export default function Header() {
                     rel="noopener noreferrer"
                   >
                     {t("cta")}
-                    <ArrowRight className="h-5 w-5 transition group-hover:-translate-x-1 rtl:rotate-180" />
+                    <Phone className="h-5 w-5 transition group-hover:scale-95" />
                   </Link>
                 </Button>
                 <LocaleSwitcher className="w-auto" isTop={!isScrolled} />
@@ -259,7 +262,7 @@ export default function Header() {
                         rel="noopener noreferrer"
                       >
                         {t("cta")}
-                        <ArrowRight className="h-5 w-5 transition group-hover:-translate-x-1 rtl:rotate-180" />
+                        <Phone className="h-5 w-5 transition group-hover:scale-95" />
                       </Link>
                     </Button>
                   </m.div>

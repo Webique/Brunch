@@ -1,6 +1,25 @@
 {
   "IndexPage": {
-    "HeroSection": {},
+    "HeroSection": {
+      "slides": [
+        {
+          "title": "Healthy & Delicious Breakfast",
+          "subtitle": "Start your day right with balanced and nutritious choices"
+        },
+        {
+          "title": "Fresh Ingredients Daily",
+          "subtitle": "We source the finest local ingredients to ensure top quality"
+        },
+        {
+          "title": "An Exceptional Breakfast Experience",
+          "subtitle": "Enjoy outstanding service that makes every visit unforgettable"
+        },
+        {
+          "title": "Variety for Everyone",
+          "subtitle": "From sandwiches to juices and coffee – we have something for every taste"
+        }
+      ]
+    },
     "WhatsAppFloat": {
       "tooltip": "Contact us on WhatsApp"
     }
