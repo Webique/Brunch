@@ -3,5 +3,9 @@
 import * as React from "react";
 
 export default function CtaSection() {
-  return <div></div>;
+  return (
+    <section id="cta">
+      <div className="layout"></div>
+    </section>
+  );
 }

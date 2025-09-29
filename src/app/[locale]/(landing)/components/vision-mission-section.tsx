@@ -3,5 +3,9 @@
 import * as React from "react";
 
 export default function VisionMissionSection() {
-  return <div></div>;
+  return (
+    <section id="vision">
+      <div className="layout"></div>
+    </section>
+  );
 }

@@ -4,7 +4,6 @@ import * as m from "motion/react-m";
 import { useTranslations } from "next-intl";
 import { Phone, Mail, MapPin } from "lucide-react";
 
-import WhatsApp from "@/assets/icons/whatsapp.svg";
 import X from "@/assets/icons/x.svg";
 import Instagram from "@/assets/icons/instagram.svg";
 import Facebook from "@/assets/icons/facebook.svg";
@@ -34,11 +33,6 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    {
-      name: t("socialMedia.whatsapp"),
-      url: "https://wa.me/966566402023",
-      icon: WhatsApp
-    },
     {
       name: t("socialMedia.instagram"),
       url: "https://instagram.com/bruncharea",

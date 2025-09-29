@@ -3,5 +3,9 @@
 import * as React from "react";
 
 export default function ServicesSection() {
-  return <div></div>;
+  return (
+    <section id="services">
+      <div className="layout"></div>
+    </section>
+  );
 }
