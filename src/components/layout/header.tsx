@@ -99,8 +99,8 @@ export default function Header() {
         className={cn(
           "fixed top-0 z-50 w-full duration-300 ease-in-out",
           isScrolled
-            ? "bg-white text-gray-900 shadow-lg md:bg-white/95 md:backdrop-blur-lg"
-            : "text-primary-foreground bg-white md:bg-transparent"
+            ? "bg-white text-gray-900 shadow-lg lg:bg-white/95 lg:backdrop-blur-lg"
+            : "text-primary-foreground bg-white lg:bg-transparent"
         )}
       >
         <div className="layout py-3">
@@ -114,7 +114,7 @@ export default function Header() {
             >
               <Logo
                 smallInMobile
-                desClassName={isScrolled ? "text-gray-600" : "md:text-white"}
+                desClassName={isScrolled ? "text-gray-600" : "lg:text-white"}
               />
             </m.div>
 
@@ -151,7 +151,7 @@ export default function Header() {
                 className="flex items-center"
               >
                 <Button
-                  className="group me-2 hidden rounded-full px-4 py-5 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl md:inline-flex"
+                  className="group me-2 hidden rounded-full px-4 py-5 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl lg:inline-flex"
                   size="lg"
                   asChild
                 >
@@ -182,7 +182,7 @@ export default function Header() {
                     "p-2 transition-all duration-300 hover:scale-105 focus:ring-2 focus:ring-offset-2",
                     isScrolled
                       ? "hover:text-primary focus:ring-primary text-gray-700"
-                      : "hover:text-primary focus:ring-primary md:text-primary-foreground md:hover:bg-primary/80 md:hover:text-primary-foreground/80 md:focus:ring-primary-foreground text-gray-700"
+                      : "hover:text-primary focus:ring-primary lg:text-primary-foreground lg:hover:bg-primary/80 lg:hover:text-primary-foreground/80 lg:focus:ring-primary-foreground text-gray-700"
                   )}
                   aria-label="Toggle mobile menu"
                 >
@@ -231,7 +231,7 @@ export default function Header() {
                 "overflow-hidden border-t lg:hidden",
                 isScrolled
                   ? "border-gray-200 bg-white/95 backdrop-blur-lg"
-                  : "md:bg-primary/95 md:border-primary-foreground/20 border-gray-200 bg-white/95 backdrop-blur-lg md:backdrop-blur-sm"
+                  : "lg:bg-primary/95 lg:border-primary-foreground/20 border-gray-200 bg-white/95 backdrop-blur-lg lg:backdrop-blur-sm"
               )}
             >
               <nav className="layout py-6">
@@ -245,7 +245,7 @@ export default function Header() {
                           "block rounded-lg px-4 py-3 text-base font-medium transition-all duration-300 hover:scale-[1.02] focus:outline-none focus:ring-2 focus:ring-offset-2",
                           isScrolled
                             ? "hover:bg-primary/10 hover:text-primary focus:ring-primary text-gray-700"
-                            : "hover:bg-primary/10 hover:text-primary focus:ring-primary md:text-primary-foreground md:hover:bg-primary-foreground/10 md:focus:ring-primary-foreground text-gray-700"
+                            : "hover:bg-primary/10 hover:text-primary focus:ring-primary lg:text-primary-foreground lg:hover:bg-primary-foreground/10 lg:focus:ring-primary-foreground text-gray-700"
                         )}
                       >
                         {item.label}
