@@ -60,7 +60,10 @@ export default function CtaSection() {
   ];
 
   return (
-    <section className="relative bg-gradient-to-br from-amber-400 to-orange-500 py-32">
+    <section
+      id="contact"
+      className="relative bg-gradient-to-br from-amber-400 to-orange-500 py-32"
+    >
       <div className="layout relative z-10 mx-auto max-w-6xl text-center">
         <m.div
           initial={{ opacity: 0, y: 40 }}
