@@ -35,17 +35,17 @@ const Footer = () => {
   const socialLinks = [
     {
       name: t("socialMedia.instagram"),
-      url: "https://instagram.com/bruncharea",
+      url: siteConfig.links.instagram,
       icon: Instagram
     },
     {
       name: t("socialMedia.x"),
-      url: "https://x.com/bruncharea",
+      url: siteConfig.links.x,
       icon: X
     },
     {
       name: t("socialMedia.facebook"),
-      url: "https://facebook.com/bruncharea",
+      url: siteConfig.links.facebook,
       icon: Facebook
     },
     {
