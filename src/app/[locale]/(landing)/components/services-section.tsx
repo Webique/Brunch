@@ -20,7 +20,7 @@ export default function ServicesSection() {
       icon: Coffee,
       title: t("beverages"),
       description: t("beveragesDesc"),
-      image: "/images/services/beverages.jpg"
+      image: "/images/services/beverages.png"
     },
     {
       icon: Sandwich,
@@ -32,7 +32,7 @@ export default function ServicesSection() {
       icon: Croissant,
       title: t("frenchToast"),
       description: t("frenchToastDesc"),
-      image: "/images/services/french-toast.jpg"
+      image: "/images/services/french-toast.png"
     }
   ];
 
@@ -111,7 +111,7 @@ export default function ServicesSection() {
               </div>
               <div className="relative h-[300px] overflow-hidden rounded-2xl shadow-lg sm:h-[400px]">
                 <ExportedImage
-                  src="/images/services/menu-highlight.jpg"
+                  src="/images/services/menu-highlight.jpeg"
                   alt={t("menuImageAlt")}
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"
