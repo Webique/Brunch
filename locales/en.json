@@ -4,77 +4,77 @@
       "slides": [
         {
           "title": "Healthy & Delicious Breakfast",
-          "subtitle": "Start your day right with balanced and nutritious choices"
+          "subtitle": "Start your day perfectly with our balanced and nutritious breakfast options."
         },
         {
           "title": "Fresh Ingredients Daily",
-          "subtitle": "We source the finest local ingredients to ensure top quality"
+          "subtitle": "We select the finest ingredients from trusted local sources to ensure the highest quality."
         },
         {
           "title": "An Exceptional Breakfast Experience",
-          "subtitle": "Enjoy outstanding service that makes every visit unforgettable"
+          "subtitle": "We provide superior service that makes every visit an unforgettable experience."
         },
         {
-          "title": "Variety for Everyone",
-          "subtitle": "From sandwiches to juices and coffee – we have something for every taste"
+          "title": "Variety to Suit Every Taste",
+          "subtitle": "From delicious sandwiches to refreshing juices and rich coffee, we satisfy all palates."
         }
       ]
     },
     "VisionMissionSection": {
       "whyBrunchArea": "Why <span>Brunch Area</span>?",
-      "description": "More than just breakfast — it's moments that combine taste, quality, and exceptional atmospheres to create an unforgettable experience.",
+      "description": "We are more than just a breakfast spot; we create unique moments that blend authentic flavor, high quality, and an exceptional atmosphere for an unforgettable experience.",
       "vision": "Our Vision",
-      "visionText": "To become the first destination for breakfast lovers in the region, where refined taste meets a unique experience.",
+      "visionText": "To be the leading destination for breakfast enthusiasts in the region, where refined tastes meet an unparalleled experience.",
       "mission": "Our Mission",
-      "missionText": "We provide fresh and healthy breakfast meals with exceptional service and inspiring atmospheres that make your day more beautiful.",
+      "missionText": "We are committed to providing fresh and healthy breakfast meals, complemented by exceptional service and an inspiring ambiance that adds a touch of beauty to your day.",
       "values": "Our Values",
-      "valuesText": "Honesty and transparency, respect for customers and ingredients, continuous innovation, excellence in every detail.",
+      "valuesText": "Integrity and transparency, respect for our customers and ingredients, continuous innovation, and a commitment to excellence in every detail.",
       "imageAlt": "Breakfast experience at Brunch Area"
     },
     "AboutSection": {
       "title": "Who We Are",
       "description1Part1": "At ",
       "description1Part2": "Brunch Area",
-      "description1Part3": ", we are committed to preparing balanced and nutritious breakfast meals that meet your daily needs, delivered with exceptional service and a high-quality experience.",
-      "description2": "We work with local farmers and suppliers to provide the best fresh ingredients daily, ensuring our customers have an exceptional experience with every visit.",
-      "description3": "Our commitment to transparency, respect, and continuous innovation is what sets us apart and makes us the best choice for a healthy and delicious breakfast all day.",
+      "description1Part3": ", we are dedicated to preparing balanced and nutritious breakfast meals to meet your daily needs, delivered with outstanding service and an unmatched experience.",
+      "description2": "We collaborate with the best local farmers and suppliers to guarantee fresh ingredients daily, ensuring our customers enjoy a unique experience with every visit.",
+      "description3": "Our commitment to transparency, respect, and continuous innovation is the secret to our distinction, making us your ideal destination for a healthy and delicious breakfast all day long.",
       "imageAlt": "About Brunch Area"
     },
     "ServicesSection": {
       "title": "Our Services",
-      "subtitle": "We carefully prepare breakfast meals with nutritional value, balanced and meeting your needs throughout the day",
+      "subtitle": "We are committed to preparing healthy, balanced, and highly nutritious breakfast meals to meet your needs throughout the day.",
       "breakfastMeals": "Breakfast Meals",
-      "breakfastMealsDesc": "We prepare various breakfast meals with high nutritional value, fresh, healthy and delicious throughout the day",
+      "breakfastMealsDesc": "We offer a diverse selection of delicious, fresh, and healthy breakfast meals with high nutritional value for you to enjoy anytime.",
       "beverages": "Beverages",
-      "beveragesDesc": "Orange juice, tea, coffee and various drinks that complement and are practical with your breakfast meal",
+      "beveragesDesc": "Enjoy our selection of refreshing beverages, including fresh orange juice, tea, and coffee, perfectly complementing your breakfast.",
       "sandwiches": "Sandwiches",
-      "sandwichesDesc": "Diverse cheese, meat, egg and falafel sandwiches that satisfy all tastes without description, just types",
+      "sandwichesDesc": "We offer a wide variety of sandwiches made with premium cheeses, fresh meats, eggs, and falafel to satisfy every taste.",
       "frenchToast": "French Toast",
-      "frenchToastDesc": "French toast panino preserves its basic components and innovation. English toast rich with pieces. Crispy French toast",
-      "menuHighlight": "Our Menu Experience",
-      "menuDescription": "The menu is presented with images of food only without description, making it easy for the customer to choose in a thoughtful and practical way",
-      "feature1": "We work with local farmers and suppliers providing them with incentives and rewards without distinction",
-      "feature2": "We are committed to providing excellent service and enriching their high-quality experience",
-      "feature3": "Our team consists of trained members to maintain innovative means of success",
+      "frenchToastDesc": "Discover our French toast: from the innovative panino and rich English toast to the crispy French toast.",
+      "menuHighlight": "Discover Our Menu",
+      "menuDescription": "Our menu features appetizing photos of our dishes to make your selection easier in a practical and thoughtful way.",
+      "feature1": "We collaborate with local farmers and suppliers, offering them support and incentives to ensure sustained quality.",
+      "feature2": "We are committed to providing exceptional service that enriches our customers' experience and ensures their satisfaction.",
+      "feature3": "Our team consists of trained professionals who constantly strive to innovate and ensure our continued success.",
       "menuImageAlt": "Brunch Area breakfast menu"
     },
     "IdentitySection": {
       "title": "Our Identity",
       "imageAlt": "Brunch Area Identity",
-      "description": "The sun symbolizes the start of a new day, with 16 rays emanating from within, forming an oval shape that represents a nutritious and healthy breakfast for a good day. The creamy yellow color was chosen to reflect the sun's influence throughout the day.",
-      "authenticity": "Honesty and Transparency",
-      "freshness": "Respect for Customers and Ingredients",
+      "description": "Our identity is symbolized by a rising sun, heralding a new day with 16 rays. At its center, an oval shape represents a healthy and nutritious breakfast for a perfect start. The creamy yellow color was chosen to reflect the warmth of the sun's rays throughout the day.",
+      "authenticity": "Integrity and Transparency",
+      "freshness": "Respect for Customers & Ingredients",
       "quality": "Continuous Innovation",
-      "customerFocus": "Customer Satisfaction"
+      "customerFocus": "Customer-Centric Focus"
     },
     "CtaSection": {
       "title": "Visit Us Today",
       "subtitle": "And Enjoy an Unforgettable Breakfast Experience",
-      "description": "We pride ourselves on offering the best breakfast meals in the area with a family-friendly atmosphere and fresh ingredients daily. Visit us and discover why we are the preferred destination for breakfast lovers.",
+      "description": "We take pride in offering the finest breakfast in the region, in a sophisticated, family-friendly atmosphere with daily fresh ingredients. Visit us and discover why we are the preferred destination for breakfast lovers.",
       "phone": "Phone",
       "email": "Email",
       "location": "Location",
-      "locationText": "Prime Location",
+      "locationText": "Strategic Location",
       "hours": "Working Hours",
       "hoursText": "6 AM - 11 PM",
       "getDirections": "Get Directions",
@@ -106,7 +106,7 @@
   "LocaleLayout": {
     "name": "Brunch Area | Healthy & Delicious Breakfast All Day",
     "short_name": "Brunch Area",
-    "description": "Enjoy Brunch Area’s fresh, healthy, and delicious breakfast served all day. We offer a wide variety of sandwiches, juices, coffee, and baked goods with unique flavors to satisfy every taste. Always an exceptional experience with excellent service.",
+    "description": "Enjoy the best fresh and healthy breakfast at Brunch Area, served all day. We offer a variety of sandwiches, juices, coffee, and baked goods with unique flavors to satisfy every palate. Always an exceptional experience with superior service for our customers.",
     "keywords": [
       "Brunch Area",
       "healthy breakfast",
@@ -143,14 +143,14 @@
     "about": "About Us",
     "vision": "Vision & Mission",
     "identity": "Our Identity",
-    "location": "Location",
+    "location": "Our Location",
     "quickLinks": "Quick Links",
     "services": "Our Services",
     "contactUs": "Contact Us",
-    "available24_7": "Available 24/7",
-    "connectViaWhatsApp": "Connect via WhatsApp",
+    "available24_7": "Available to Serve You",
+    "connectViaWhatsApp": "Connect with us on WhatsApp",
     "copyright": "© {year} Brunch Area. All rights reserved",
-    "companyDescription": "We specialize in providing healthy and fresh breakfast meals throughout the day, with a focus on quality and distinctive flavors",
+    "companyDescription": "We specialize in providing healthy and fresh breakfast meals throughout the day, with a focus on high quality and distinctive flavors.",
     "breakfastMeals": "Breakfast Meals",
     "beverages": "Beverages",
     "sandwiches": "Sandwiches",
